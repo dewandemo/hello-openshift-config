@@ -17,4 +17,4 @@ spec:
       - image: docker.io/dewandemo/hello-golang:v1.0.0
         name: hello-openshift
         ports:
-        - containerPort: 80
+        - containerPort: 8080
