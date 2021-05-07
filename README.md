@@ -1,1 +1,1 @@
-# hello-openshift-config
+# GitOps Repo for Hello OpenShift App
