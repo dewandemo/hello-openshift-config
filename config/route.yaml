@@ -1,0 +1,13 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: hello-openshift
+spec:
+  path: /
+  to:
+    kind: Service
+    name: hello-openshift
+    weight: 100
+  port:
+    targetPort: 8080
+  wildcardPolicy: None
